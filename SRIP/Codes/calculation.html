@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="cal.js"></script>
+    
+</head>
+
+<body style="background-color:lightyellow">
+
+    <h1 align="center">TORSION TEST</h1>
+    <h2 align="left">CALCULATION</h2>
+ 
+
+
+    torque:
+    <input id="torque" type="number" step="any" placeholder="Enter X-Value">
+    angleoftwist:
+    <input id="angleoftwist" type="number" step="any" placeholder="Enter Y-Value">
+    
+<h4 align="left">Enter the diameter:  <input id="diameter" name="diameter" size="3" type="text" required=""></h4>
+<h4 align="left">Enter length of the member:   <input id="length of the member" size="3"></h4>
+
+    <button onsubmit="return validateform()" id="renderButton">torque vs angle of twist </button>
+    <button id="renderButton9">View Stress & Strain</button>
+    
+    <h4 align="left">Rigidity of modulus <input id="answer" size="3"> </h4>
+
+<h4 align="left">Stress <input id="answer1" size="3"> </h4>
+
+<h4 align="left">Strain <input id="answer2" size="3"> </h4>
+
+    <div id="chartContainer" style="height: 270px; width: 100%;">
+    </div>
+	<br>
+	<div id="chart2" style="height: 270px; width: 100%;">
+	</div>
+
+
+
+</body>
+
+</html>

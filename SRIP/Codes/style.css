@@ -1,3 +1,5 @@
+#my_centered_buttons { display: flex; justify-content: center; }
+
 .banner {
   width: 100%;
   background-color: orange;
