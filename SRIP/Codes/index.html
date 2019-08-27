@@ -1,57 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-    <style type="text/css">
-      #my_centered_buttons { display: flex; justify-content: center; }
-      </style>
-<style>
-
-.banner {
-  width: 100%;
-  background-color: orange;
-  margin: 0 auto;
-}
-.btn button {
-    background: #aad4ff;
-    border:3px solid grey;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 135px;
-    text-align:centre;
-    cursor: pointer; /* Pointer/hand icon */
-    font-weight: bold;
-    display: float;
-}
-
-.btn-img  {
-    border: 3px solid red;
-    margin-right: 15px;    
-    vertical-align: middle;
-    position: 
-}
-
-.btn-txt {
-    vertical-align: middle;
-    font-weight: bold;
-}
-
-/* Add a background color on hover */
-.btn button:hover {
-  background-color: Pink;
-}
-
-.btn button:not(:last-child) {
-  border-bottom: none; /* Prevent double borders */
-}
-#container{
-  height: 700px;
-  width: 1000px;
-  background: linear-gradient(to bottom, #051E37 0%, #128DEB 100%);
-
-}
-
-</style>
+  <meta charset="UTF-8">
+    <meta name="description" content="This page has a simulation for Triaxial test">
+    <meta name="keywords" content="Triaxial">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
 </head>
 <body >
   <h2 align="center"><b>Basic Engineering Mechanics & Strength of Materials Lab<br>Torsion Test Experiment</b></h2>
@@ -75,8 +30,14 @@
 </div><br><br>
 <div align="center">
     <div id="container">
+  <div class="outline">
+    <canvas></canvas>
+    
+  </div>
 
     </div>
 </div>
+<script src="script.js">
+  </script>
 </body>
 </html>

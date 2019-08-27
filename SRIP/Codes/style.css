@@ -1,0 +1,43 @@
+.banner {
+  width: 100%;
+  background-color: orange;
+  margin: 0 auto;
+}
+.btn button {
+    background: #aad4ff;
+    border:3px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 135px;
+    text-align:centre;
+    cursor: pointer; /* Pointer/hand icon */
+    font-weight: bold;
+    display: float;
+}
+
+.btn-img  {
+    border: 3px solid red;
+    margin-right: 15px;    
+    vertical-align: middle;
+    position: 
+}
+
+.btn-txt {
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+/* Add a background color on hover */
+.btn button:hover {
+  background-color: Pink;
+}
+
+.btn button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+#container{
+  height: 700px;
+  width: 1000px;
+  background: linear-gradient(to bottom, #051E37 0%, #128DEB 100%);
+
+}
